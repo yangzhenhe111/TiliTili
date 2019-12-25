@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TILITILI游戏</title>
+	<link rel="stylesheet" href="youxi.css">
+	<script src="youxi.js"></script>
+	<link rel="icon" href="log.png" type="image/x-icon"/>
+</head>
+<body>
+<div>	
+	<div class="top">
+		<div class="top1">
+		<img src="20191225173911.jpg" alt="">
+	    </div>
+		<ul class="top2">
+			<li id="topch1"><a href="">首页</a></li>
+			<li id="topch2"><a href="">动漫</a></li>
+			<li id="topch3"><a href="">游戏</a></li>
+			<li id="topch4"><a href="">小说</a></li>
+			<li id="topch5"><a href="">购物</a></li>
+			<li id="topch6"><a href="">漫画</a></li>	
+		</ul>
+		<ul class="top3">
+			<li><a href="#">登录</a></li>||
+			<li><a href="#">注册</a></li>
+		</ul>
+	</div>
+	<div class="bigimg">
+		<div class="sqimg">
+		<img src="383_171031130319_1.jpg" alt="">
+		</div>
+	</div>
+<div class="daojishi">
+	<p>距游戏之夜降临仅有</p>
+	<p><span></span></p>	
+</div>
+<div class="zhongdiv">
+	<div class="biaoqian">
+		<p>热门标签</p>
+		<p>_____________</p>
+		<ul class="biaoqianul">
+			<li id="biaoqianul1"><a href="">大型网游</a></li>
+			<li id="biaoqianul2"><a href="">单机</a></li>
+			<li id="biaoqianul3"><a href="">免费</a></li>
+			<li id="biaoqianul4"><a href="">电子竞技</a></li>
+			<li id="biaoqianul5"><a href="">动作冒险</a></li>
+			<li id="biaoqianul6"><a href="">FPS</a></li>
+			<li id="biaoqianul7"><a href="">角色扮演</a></li>
+		</ul>	
+	</div>
+	<div class="box" id="box">
+		<div class="slider" id="slider">
+			<div class="slide"><img src="15766871113882.jpg" alt=""></div>
+			<div class="slide"><img src="15767404294167.jpg" alt=""></div>
+			<div class="slide"><img src="15770064833882.jpg" alt=""></div>
+			<div class="slide"><img src="15770912834167.jpg" alt=""></div>
+			<div class="slide"><img src="15771830013882.jpg" alt=""></div>
+			<div class="slide"><img src="15766871113882.jpg" alt=""></div>
+			<div class="slide"><img src="15767404294167.jpg" alt=""></div>
+		</div>
+		<span id="left"><</span>
+		<span id="right">></span>
+		<ul class="nav" id="nav">
+			<li class="active">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+	</div>
+</div>
+<div class="zhanshi">
+	<div class="zhanshitop">
+		<p>火爆热品</p>
+	</div>
+	<div class="zhanshitu">
+	<div class="zhanshitu1"><img src="u=1329945484,1572424265&fm=15&gp=0.jpg" alt="">
+	</div>
+	<div class="zhanshitu2"><img src="u=3252266934,3646014756&fm=15&gp=0.jpg" alt="">
+	</div>
+	<div class="zhanshitu3"><img src="u=3873660920,3572986633&fm=15&gp=0.jpg.png" alt="">
+	</div>
+	<div class="zhanshitu4"><img src="u=3012135578,4110542907&fm=15&gp=0.jpg" alt="">
+	</div>
+</div>
+</div>
+<div class="bottomdiv">
+	<div class="bottomdiv1">
+		<div class="bottomdiv1A">
+			<p>下载客户端：</p>
+			<ul>
+				<li>PC端</li>
+			</ul>
+		</div>
+		<div class="bottomdiv1B">
+			<p>官方渠道：</p>
+			<ul>
+				<li>微博</li>
+			</ul>
+			<ul>
+				<li>微信</li>
+			</ul>
+		</div>
+		<div class="bottomdiv1T">
+			<p>友情链接：</p>
+			<ul>
+				<li>TITI阅读</li>
+			</ul>
+			<ul>
+				<li>TITI动漫</li>
+			</ul>
+		</div>
+	</div>
+	<div class="bottomdiv2">
+		<p>关于TITI | About Tencent | 服务条款 | 用户服务协议 | 隐私政策 | 侵权通知 | 广告服务 | TITI招聘 | 客服中心 | 网站导航</p>
+		<p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+		<p>TILITILI公司 版权所有</p>
+	</div>
+</div>
+</div>
+<script>
+	    var topch1=document.getElementById('topch1');
+	    var topch2=document.getElementById('topch2');
+	    var topch2=document.getElementById('topch2');
+	    var topch3=document.getElementById('topch3');
+	    var topch4=document.getElementById('topch4');
+	    var topch5=document.getElementById('topch5');
+	    var topch6=document.getElementById('topch6');
+	    var biaoqianul1=document.getElementById('biaoqianul1');
+	    var biaoqianul2=document.getElementById('biaoqianul2');
+	    var biaoqianul3=document.getElementById('biaoqianul3');
+	    var biaoqianul4=document.getElementById('biaoqianul4');
+	    var biaoqianul5=document.getElementById('biaoqianul5');
+	    var biaoqianul6=document.getElementById('biaoqianul6');
+	    var biaoqianul7=document.getElementById('biaoqianul7');
+		var box=document.getElementById('box');
+		var oNavlist=document.getElementById('nav').children;
+		var slider=document.getElementById('slider');
+		var left=document.getElementById('left');
+		var right=document.getElementById('right');
+		var oSpan = document.getElementsByTagName('span')[0];
+        function tow(n) {
+          return n >= 0 && n < 10 ? '0' + n : '' + n;
+        }
+        function getDate() {
+        var oDate = new Date();
+        var oldTime = oDate.getTime();
+        var newDate = new Date('2020/1/1 00:00:00');
+        var newTime = newDate.getTime();
+        var second = Math.floor((newTime - oldTime) / 1000);
+        var day = Math.floor(second / 86400);
+        second = second % 86400;
+        var hour = Math.floor(second / 3600);
+        second %= 3600; 
+        var minute = Math.floor(second / 60);
+        second %= 60;
+    var str = tow(day) +":"+ tow(hour)+":"+ tow(minute) +":"
+        + tow(second);
+    oSpan.innerHTML = str;
+  }
+  getDate();
+  setInterval(getDate, 1000);
+		var i=1;
+		var h=1;
+		var timer;
+		var isMoving=false;
+		topch1.onmouseover=function(){
+			topch1.className="topch1";
+		}
+		topch1.onmouseout=function(){
+			topch1.className="topch";
+		}
+		topch2.onmouseover=function(){
+			topch2.className="topch2";
+		}
+		topch2.onmouseout=function(){
+			topch2.className="topch";
+		}
+		topch3.onmouseover=function(){
+			topch3.className="topch3";
+		}
+		topch3.onmouseout=function(){
+			topch3.className="topch";
+		}
+		topch4.onmouseover=function(){
+			topch4.className="topch4";
+		}
+		topch4.onmouseout=function(){
+			topch4.className="topch";
+		}
+		topch5.onmouseover=function(){
+			topch5.className="topch5";
+		}
+		topch5.onmouseout=function(){
+			topch5.className="topch";
+		}
+		topch6.onmouseover=function(){
+			topch6.className="topch6";
+		}
+		topch6.onmouseout=function(){
+			topch6.className="topch";
+		}
+		biaoqianul1.onmouseover=function(){
+			biaoqianul1.className="biaoqianul1";
+		}
+		biaoqianul1.onmouseout=function(){
+			biaoqianul1.className="topch";
+		}
+		biaoqianul2.onmouseover=function(){
+			biaoqianul2.className="biaoqianul2";
+		}
+		biaoqianul2.onmouseout=function(){
+			biaoqianul2.className="topch";
+		}
+		biaoqianul3.onmouseover=function(){
+			biaoqianul3.className="biaoqianul3";
+		}
+		biaoqianul3.onmouseout=function(){
+			biaoqianul3.className="topch";
+		}
+		biaoqianul4.onmouseover=function(){
+			biaoqianul4.className="biaoqianul4";
+		}
+		biaoqianul4.onmouseout=function(){
+			biaoqianul4.className="topch";
+		}
+		biaoqianul5.onmouseover=function(){
+			biaoqianul5.className="biaoqianul5";
+		}
+		biaoqianul5.onmouseout=function(){
+			biaoqianul5.className="topch";
+		}
+		biaoqianul6.onmouseover=function(){
+			biaoqianul6.className="biaoqianul6";
+		}
+		biaoqianul6.onmouseout=function(){
+			biaoqianul6.className="topch";
+		}
+		biaoqianul7.onmouseover=function(){
+			biaoqianul7.className="biaoqianul7";
+		}
+		biaoqianul7.onmouseout=function(){
+			biaoqianul7.className="topch";
+		}
+		function next(){
+			if(isMoving){
+				return;
+			}
+			isMoving=true;
+			i++;
+			navChange();
+			animate(slider,{left:-1200*i},function(){
+				if(i>5){
+					slider.style.left="-1200px";
+					i=1;
+				}
+				isMoving=false;
+			});
+		}
+		function prev(){
+			if(isMoving){
+				return;
+			}
+			isMoving=true;
+			i--;
+			navChange();
+			animate(slider,{left:-1200*i},function(){
+				if(i==0){
+					slider.style.left="-6000px";
+					i=5;
+				}
+				isMoving=false;
+			});
+		}
+		var timer = setInterval(next,3000);
+		box.onmouseover=function(){
+			animate(left,{opacity:50});
+			animate(right,{opacity:50});
+			clearInterval(timer);
+		}
+		box.onmouseout=function(){
+			animate(left,{opacity:0});
+			animate(right,{opacity:0});
+			timer=setInterval(next,3000);
+		}
+		right.onclick=next;
+		left.onclick=prev;
+		
+		for(var j=0;j<oNavlist.length;j++){
+			oNavlist[j].idx=j;
+			oNavlist[j].onclick=function(){
+				i=this.idx+1;
+				navChange();
+				animate(slider,{left:-1200*i});
+			}
+		}
+		function navChange(){
+			for(var j=0;j<oNavlist.length;j++){
+				oNavlist[j].className='';
+			}
+			if(i>5){ 
+				oNavlist[0].className='active';
+			}else if(i==0){
+				oNavlist[4].className='active';
+			}else{
+				oNavlist[i-1].className='active';
+			}
+		}        
+</script>
+</body>
+</html>
